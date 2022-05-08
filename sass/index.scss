@@ -136,7 +136,7 @@
             margin-left: 1em;
             font-weight: bold;
         }
-        span{
+        &__circle{
             display: block;
             width: 25px;
             height: 25px;
@@ -147,6 +147,13 @@
             color: white;
             border-radius: 50px;
             padding: 5px;
+        }
+        span{
+            position: absolute;
+            left: 4px;
+            text-align: center;
+            background: $primary-color;
+            color: white;
         }
     }
 }

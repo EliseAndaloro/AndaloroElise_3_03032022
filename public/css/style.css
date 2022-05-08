@@ -539,7 +539,7 @@ main {
   margin-left: 1em;
   font-weight: bold;
 }
-.functionning__step span {
+.functionning__step__circle {
   display: block;
   width: 25px;
   height: 25px;
@@ -550,6 +550,13 @@ main {
   color: white;
   border-radius: 50px;
   padding: 5px;
+}
+.functionning__step span {
+  position: absolute;
+  left: 4px;
+  text-align: center;
+  background: #9356DC;
+  color: white;
 }
 
 @media screen and (min-width: 800px) {
