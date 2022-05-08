@@ -176,8 +176,7 @@
     padding: 40px 20px;
 
     &__card{
-        height: 250px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
         background: white;
         border-radius: 10px;
         @include box-shadow;
@@ -228,6 +227,7 @@
             p{
                 font-size: 1.1em;
                 padding-top: 5px;
+                margin-top: -7px;
             }
             &__heart{
                 position: absolute !important;

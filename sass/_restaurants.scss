@@ -55,9 +55,13 @@ main{
                 & > .menu__title__heart__empty {
                     color: transparent;
                     opacity: 0;
+                    position: absolute;
+                    top: 16px;
                 }
                 & > .menu__title__heart__full {
                     opacity: 1;
+                    position: absolute;
+                    top:16px;
                 }
             }
         }
@@ -79,7 +83,6 @@ main{
             border-radius: 10px;
             @include box-shadow;
             margin-bottom: 15px;
-            width: 100%;
             padding: 12px;
 
             display: flex;
