@@ -226,7 +226,7 @@ main {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: -30px;
+  top: -45px;
 }
 .menu__wrapper {
   width: 100%;
@@ -247,6 +247,8 @@ main {
 .menu__title__heart__empty {
   color: black;
   transition: all 0.5s;
+  position: absolute;
+  top: 16px;
 }
 .menu__title__heart__full {
   opacity: 0;
@@ -255,6 +257,8 @@ main {
   background: linear-gradient(184deg, #ff79da 0%, #9356dc 100%);
   -webkit-background-clip: text;
   color: transparent;
+  position: absolute;
+  top: 16px;
 }
 .menu__title__heart:hover > .menu__title__heart__empty {
   color: transparent;
@@ -338,6 +342,8 @@ main {
   z-index: 2;
   width: 20px;
   height: 20px;
+  color: white;
+  font-size: 2em;
 }
 .menu__listing .delay0 {
   animation-delay: 0;
@@ -680,6 +686,13 @@ main {
     padding-left: 15%;
   }
 }
+/*
+@import "feuilles de styles";
+@import "base"; 
+@import "components";
+@import "layouts"; 
+@import "pages";
+*/
 /* LE FICHIER MAIN NE DOIT COMPORTER QUE DES IMPORTS */
 
 /*# sourceMappingURL=style.css.map */
