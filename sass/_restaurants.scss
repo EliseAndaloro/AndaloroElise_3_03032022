@@ -16,13 +16,13 @@ main{
 .menu{
     border-radius: 30px 30px 0 0;
     background-color: $background-color-1;
-    padding: 35px 15px 80px 15px;
+    padding: 35px 15px 35px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     position: relative;
-    top: -45px;
+    top: -37px;
 
     &__wrapper{
         width: 100%;
@@ -84,6 +84,7 @@ main{
             margin-bottom: 15px;
         }
         &__plat{
+            height: 36px;
             border-radius: 10px;
             @include box-shadow;
             margin-bottom: 15px;
@@ -120,6 +121,7 @@ main{
                     text-overflow: ellipsis;
                     white-space: nowrap;
                     padding-bottom: 1px;
+                    margin-top: 0;
                 }
             }
             &__price{
@@ -154,7 +156,7 @@ main{
                     width: 20px;
                     height: 20px;
                     color: white;
-                    font-size: 2em;
+                    font-size: 1.5em;
                 }
             }
         }
